@@ -1,0 +1,72 @@
+# =========================
+# Unreal Engine 4.x
+# =========================
+
+# Build products
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.user
+*.userprefs
+*.log
+
+# Rider
+.idea/
+
+# Unreal user-specific files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.opensdf
+*.sdf
+
+# Packaging output
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+Android/
+IOS/
+
+# Crash reports
+CrashReportClient/
+
+# Shader cache
+*.ushaderprecache
+*.shadercache
+
+# Unreal generated project files
+*.xcodeproj
+*.xcworkspace
+
+# Unreal Engine config backups
+Config/*.ini~
+
+# Plugin intermediates
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Autosaves
+Saved/Autosaves/
+Saved/Backup/
+
+# Python cache (if using UE Python)
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+*.zip
